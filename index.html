@@ -12,9 +12,17 @@
     </header>
     <p>Search for something with your preferred search engine!</p>
     <main>
-      <div>
-        <h2>Google</h2>
+      <div id="google">
+        <h2 id="google-logo">Google</h2>
         <form action="https://www.google.com/search" method="get">
+          <label for="q"></label>
+          <input type="search" name="q" id="q" />
+          <button>Search</button>
+        </form>
+      </div>
+      <div id="bing">
+        <h2 id="bing-logo">Bing</h2>
+        <form action="https://www.bing.com/search" method="get">
           <label for="q"></label>
           <input type="search" name="q" id="q" />
           <button>Search</button>
