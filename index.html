@@ -13,8 +13,19 @@
     <p>Search for something with your preferred search engine!</p>
     <main>
       <div id="google">
-        <h2 id="google-logo">Google</h2>
-        <form action="https://www.google.com/search" method="get">
+        <h2 class="google-logo">
+          <span style="font-size: 50px; color: #4285f4">G</span>
+          <span style="font-size: 50px; color: #ea4335">o</span>
+          <span style="font-size: 50px; color: #fbbc05">o</span>
+          <span style="font-size: 50px; color: #4285f4">g</span>
+          <span style="font-size: 50px; color: #34a853">l</span>
+          <span style="font-size: 50px; color: #ea4335">e</span>
+        </h2>
+        <form
+          action="https://www.google.com/search"
+          method="get"
+          target="_blank"
+        >
           <label for="q"></label>
           <input type="search" name="q" id="q" />
           <button>Search</button>
@@ -22,7 +33,7 @@
       </div>
       <div id="bing">
         <h2 id="bing-logo">Bing</h2>
-        <form action="https://www.bing.com/search" method="get">
+        <form action="https://www.bing.com/search" method="get" target="_blank">
           <label for="q"></label>
           <input type="search" name="q" id="q" />
           <button>Search</button>
@@ -30,7 +41,11 @@
       </div>
       <div id="yahoo">
         <h2 id="yahoo-logo">Yahoo!</h2>
-        <form action="https://search.yahoo.com/search" method="get">
+        <form
+          action="https://search.yahoo.com/search"
+          method="get"
+          target="_blank"
+        >
           <label for="q"></label>
           <input type="search" name="q" id="q" />
           <button>Search</button>

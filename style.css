@@ -20,9 +20,11 @@ p {
   border-image-slice: 1;
   margin: 20px 80px;
 }
-#google-logo {
-  font-size: 50px;
+.google-logo {
+  font-size: 0;
+  margin: 30px 0 20px 0;
 }
+/*Note to self: To remove spacing between span tags had to assign font-size 0 to their parent element and place the correct font size to child element - span*/
 #bing {
   display: flex;
   flex-direction: column;
