@@ -5,8 +5,29 @@
   border: 2px solid gray;
   border-radius: 10px;
   margin: 20px 80px;
-  padding-bottom: 40px;
 }
 #google-logo {
   font-size: 50px;
+}
+#bing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid peru;
+  border-radius: 15px;
+  margin: 20px 80px;
+}
+#bing-logo {
+  font-size: 50px;
+}
+input[type="search"] {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 35px;
+}
+button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
 }
