@@ -1,9 +1,23 @@
+h1,
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #google {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid gray;
-  border-radius: 10px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(
+    45deg,
+    #4285f4,
+    #ea4335,
+    #fbbc05,
+    #34a853,
+    #673ab7
+  );
+  border-image-slice: 1;
   margin: 20px 80px;
 }
 #google-logo {
@@ -13,21 +27,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid peru;
-  border-radius: 15px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #6af0db, #5fb4f0);
+  border-image-slice: 1;
   margin: 20px 80px;
 }
 #bing-logo {
   font-size: 50px;
+  color: #008373;
+}
+#yahoo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid purple;
+  border-radius: 10px;
+  margin: 20px 80px;
+}
+#yahoo-logo {
+  font-size: 50px;
+  color: blueviolet;
 }
 input[type="search"] {
   font-size: 20px;
   border-radius: 5px;
   padding: 8px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 button {
   font-size: 20px;
   padding: 5px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 30px auto;
 }
